@@ -6,10 +6,15 @@
     <title>Game of Life</title>
 </head>
 <body>
-    <p>I'm playing Game of Life</p>
-    <canvas></canvas>
+    <div class="item1">
+        <p id="paragraph1">I'm playing Game of Life</p>
+    </div>
+    <div class="item2">
+        <button id="startStopButton" onclick="startStop()">Start/Stop</button>
+        <button id="resetButton" onclick="reset()">Reset</button>
+    </div>
+    <canvas class="item3" id="gridCanvas"></canvas>
     <script src="index.js"></script>
-    <button id="startStopButton" onclick="startStop()">Start/Stop</button>
-    <button id="resetButton" onclick="reset()">Reset</button>
+    <div class="item4"></div>
 </body>
 </html>

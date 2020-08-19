@@ -1,5 +1,5 @@
 // variables
-const canvas = document.querySelector("canvas");
+const canvas = document.getElementById("gridCanvas")
 const ctx = canvas.getContext("2d");
 
 const resolution = 10;
