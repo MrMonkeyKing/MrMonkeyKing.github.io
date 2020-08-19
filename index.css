@@ -1,0 +1,13 @@
+p {
+    font-size: 32px;
+}
+
+#startStopButton {
+    height: 20px;
+    width: auto;
+}
+
+#resetButton {
+    height: 20px;
+    width: auto;
+}
