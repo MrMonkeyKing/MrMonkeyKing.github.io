@@ -7,7 +7,7 @@ body {
     background: #0D708D;
     display: grid;
     grid-template-columns: auto 800px auto;
-    grid-template-rows: 100px max-content 100px;
+    grid-template-rows: 100px auto 100px;
 }
 
 #heading {
