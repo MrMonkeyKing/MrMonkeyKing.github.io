@@ -63,7 +63,7 @@ function render(grid) {
 
             ctx.beginPath();
             ctx.rect(row * resolution, col * resolution, resolution, resolution);
-            ctx.fillStyle = cell ? 'black' : 'white';
+            ctx.fillStyle = cell ? 'black' : '#129DC5';
             ctx.fill();
             ctx.stroke();
         }

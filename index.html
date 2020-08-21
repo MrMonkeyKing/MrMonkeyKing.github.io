@@ -6,15 +6,21 @@
     <title>Game of Life</title>
 </head>
 <body>
-    <div class="item1">
-        <p id="paragraph1">I'm playing Game of Life</p>
-    </div>
-    <div class="item2">
+    <div id="heading">
+        <p id="logo">Game of Life</p>
         <button id="startStopButton" onclick="startStop()">Start/Stop</button>
         <button id="resetButton" onclick="reset()">Reset</button>
     </div>
-    <canvas class="item3" id="gridCanvas"></canvas>
+    <div id="templateContainer">
+        <p>dummy template</p>
+    </div>
+    <div id="gridContainer">
+        <canvas id="gridCanvas"></canvas>
+    </div>
+    <div id="ruleContainer">
+        <p>dummy rule</p>
+    </div>
+    <div id="footer"></div>
     <script src="index.js"></script>
-    <div class="item4"></div>
 </body>
 </html>
