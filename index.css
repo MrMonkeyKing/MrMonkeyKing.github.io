@@ -7,7 +7,7 @@ body {
     background: #0D708D;
     display: grid;
     grid-template-columns: auto 800px auto;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 100px 800px 100px;
 }
 
 #heading {
@@ -15,7 +15,7 @@ body {
     grid-area: 1 / 1 / 2 / 4;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,7 +30,7 @@ body {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-#ruleContainer {
+#optionContainer {
     grid-area: 2 / 3 / 3 / 4;
     display: flex;
     flex-direction: column;
@@ -45,13 +45,18 @@ body {
 }
 
 #gridCanvas {
-    background: #129DC5;
+
 }
 
 #logo{
     font-size: 48px;
     text-align: center;
     color: white;
+    margin-left: 20px;
+}
+
+#resetButton {
+    margin-right: 20px;
 }
 
 button {

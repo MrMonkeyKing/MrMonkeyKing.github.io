@@ -12,13 +12,17 @@
         <button id="resetButton" onclick="reset()">Reset</button>
     </div>
     <div id="templateContainer">
-        <p>dummy template</p>
+        <button id="randomButton" onclick="random()">Random</button>
     </div>
     <div id="gridContainer">
         <canvas id="gridCanvas"></canvas>
     </div>
-    <div id="ruleContainer">
-        <p>dummy rule</p>
+    <div id="optionContainer">
+        <div id="slideContainer">
+            <p>Resolution slider</p>
+            <input type="range" min="10" max="100" value="10" class="slider" id="resolutionSlider">
+            <p>Resolution: <span id="resOut"></span> Columns: <span id="colOut"></span> Rows: <span id="rowOut"></span></p>
+        </div>
     </div>
     <div id="footer"></div>
     <script src="index.js"></script>
